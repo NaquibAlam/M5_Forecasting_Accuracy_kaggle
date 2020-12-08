@@ -19,6 +19,7 @@ for each *train_train_day_x* (different validation periods for robust evaluation
 * This notebook explores how __GroupKFold__ CV strategy in __Sklearn__ can be used for hyper-parameter tuning for time-series data.
 * In this notebook we haven't done any hyper-parameter tuning though, __GroupKFold__ CV has just been used for validating the model's performance but the same methodology can be used for hyper-parameter tuning.
 * You can learn more about __GroupKFold__ CV and how it reduces the possibility of leakage with time-series CV from the __Markdown__ section of the notebook.
+* Custom objective function and validation metric are used which works as a proxy for __WRMSSE__, competition' evaluation metric.
 * The data for this notebook are available at:
    * https://www.kaggle.com/ragnar123/m5-reduce-data
    * https://www.kaggle.com/c/m5-forecasting-accuracy/data
